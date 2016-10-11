@@ -3,80 +3,93 @@
 \documentclass{resume}
 %\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-
+\usepackage{hyperref}
+\usepackage{linespacing_fix}
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Bin Yuan}
+\name{Guangcan MAI}
 
 % {E-mail}{mobilephone}{homepage}
 % be careful of _ in emaill address
-\contactInfo{my\_address@yuanbin.me}{(+86) 131-221-87xxx}{http://www.yuanbin.me}
+\contactInfo{csgcmai@life.hkbu.edu.hk}{+852 95656007}{\url{www.comp.hkbu.edu.hk/~csgcmai}}
 % {E-mail}{mobilephone}
 % keep the last empty braces!
 %\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+\datedsubsection{\textbf{Hong Kong Baptist University (HKBU)}, Kowloon, Hong Kong SAR}{Sept. 2013 -- Present}
+\textit{Ph.D student} in Computer Science (CS), expected in Nov. 2017
+\datedsubsection{\textbf{Michigan State University}, East Lansing, US}{Feb. 2016 -- Aug. 2016}
+\textit{Visiting Scholar}\ in \href{http://biometrics.cse.msu.edu/}{PRIP Lab}{, Dept. of Computer Science and Engineering}
+\datedsubsection{\textbf{South China University of Technology (SCUT)}, Guangzhou, China}{2010 -- 2013}
+\textit{B.Eng.} in Computer Science and Technology (CS)\\
+\textit{* Selected by SCUT for a special program for most promising students and finished the program in 3 years}
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\datedsubsection{\textbf{Michigan State University} East Lansing, US}{Feb. 2016 -- Aug. 2016}
+\role{Visiting Scholar}{\textit{Advisor}： \href{http://cse.msu.edu/~jain}{Prof. Anil K. Jain}}
+- Research on facial image reconstruction from CNN representations
+\datedsubsection{\textbf{Hong Kong Baptist University}\ Kowloon, Hong Kong SAR}{Sept. 2013 -- Present}
+\role{Ph.D student}{Advisor： \href{http://www.comp.hkbu.edu.hk/~pcyuen}{Prof. Pong C. Yuen}}
+- Research on multi-biometric (face, fingerprint and iris) template protection system, a binary feature fusion algorithm has been developed (details can be found in research paper) 
+\datedsubsection{\textbf{South China University of Technology}\  Guangzhou, China}{May 2012 -- May 2013}
+\role{Research undergraduate}{Advisor： Prof. Xingming Zhang}
+- Develop a mobile surveillance system which base on Android, mobile camera and server\\
+- Responsible for video stream extraction, transmission and Android client  \\
+- A software copyright\\
+- \textit{The First Prize} in International Contest of InnovAtioN (Guangdong) 
+\datedsubsection{\textbf{South China University of Technology}\  Guangzhou, China}{May 2011 -- May 2012}
+\role{Research undergraduate}{Advisor： Prof. Shaohua Tang and Dr. Xiaozheng Lai}
+- Develop a low-cost encryption chip and control system using Xilinx FPGA\\
+- Responsible for the development of control systems and sensors for data acquisition\\
+- \textit{Third Prize} in OpenHW 2011\\
+- \textit{The Most Favorite Project} in Guangdong First Colleague Innovation \& Startup Contest
+%
+\section{\faHeartO\ Awards and Honors}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+	\item \datedline{\textit{Four Year Ph.D Scholarship}，HKBU}{2013 -- 2017}
+%	\item \datedline{\textit{Overseas Attachment Allowance}, Mr. Kwok Yat Wai and Madam Kwok Chung Bo Fun Graduate School Development Fund}{2016}
+	\item \datedline{\textit{Third Prize}, ACM-ICPC (Hong Kong)}{Jun. 2014}
+	\item \datedline{\textit{National Motivational Scholarship}}{2011, 2012}
+	\item \datedline{\textit{Merit Student}，SCUT}{2011, 2012}
+	\item \datedline{\textit{Nomination}, Top-ten Excellent Team in SCUT (20 teams are nominated)}{2012}
+	\item \datedline{\textit{The Most Favorite Project}，Guangdong First Colleague Innovation}{Oct. 2012}
+	\item \datedline{\textit{First Prize}， International Contest of InnovAtioN (Guangdong)}{Sept. 2012}
+	\item \datedline{\textit{Third Prize}，Open Source Hardware and Embedding System Contest (20/218)}{Jun. 2012}
+	\item \datedline{\textit{Second Prize}，Guangdong Robot Contest}{Sept. 2011}
+	\item \datedline{\textit{Excellent Student Cadre}, SCUT}{2011}
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\section{\faLink\ Services}
+\datedsubsection{\textbf{Research Student Representative}\  Faculty of Science, HKBU}{2014 -- 2016}
+\datedsubsection{\textbf{President}\  Chinese Students and Scholars Association (CSSA), HKBU}{2014 -- 2016}
+
+\section{\faMicrophone \ Presentations}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+	\item\datedline{\textbf{Guangcan Mai}, \href{http://www.comp.hkbu.edu.hk/~csgcmai/papers/BinaryTemplateFusion_BTAS2015.pptx}{Fusing Binary Templates for Multi-biometric Cryptosystems}}{Sept. 2015}
+	- Washington DC, US
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+\section{\faBook\ Publications}
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+	\item \textbf{Guangcan Mai}, Meng-Hui Lim, Pong C Yuen, Fusing Binary Templates for Multi-biometric Cryptosystems. \textit{BTAS2015}
+	\item \textbf{Guangcan Mai}, Meng-Hui Lim, Pong C Yuen, Binary Feature Fusion for Discriminative and Secure Multi-biometric Cryptosystems, invited submission, \textit{Image and Vision Computing} (under review)
+	\item Meng-Hui Lim, Sunny Verma, \textbf{Guangcan Mai}, Pong C Yuen, Learning Discriminability-Preserving Histogram Representation from Unordered Features for Multibiometric Feature-Fused-Template Protection, \textit{Pattern Recognition}, Dec 2016, Pages 706–719
 \end{itemize}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
 
-\section{\faCogs\ Skills}
+\section{\faCogs\ IT Skills}
+% increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+	\item Programming language: MATLAB, C/C++, Python, Java, PHP, VerlogHDL (ordered by proficiency)
+	\item Platform and tools: Windwos, Linux, Android,  Vim, \LaTeX, Office, Git, Visual Studio, MXNET, FPGA
 \end{itemize}
 
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
-
-\section{\faInfo\ Miscellaneous}
+\section{\faInfo\ Others}
+% increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
+	\item GitHub: \url{https://github.com/csgcmai}
+	\item Language, Mandarin (Chinese), Cantonese, English
 \end{itemize}
-
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
